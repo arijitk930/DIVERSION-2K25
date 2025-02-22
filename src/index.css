@@ -9,3 +9,8 @@
   font-weight: 800;
   font-style: normal;
 }
+@layer utilities {
+  .text-stroke {
+    -webkit-text-stroke: 1px black;
+  }
+}

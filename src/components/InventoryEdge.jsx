@@ -17,8 +17,8 @@ const InventoryEdge = () => {
         animate={isInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 1 }}
       >
-        <span className="text-white">inventory</span>
-        <span className="font-custom">Edge</span>
+        <span className="text-white text-stroke">inventory</span>
+        <span className="font-custom text-stroke">Edge</span>
       </motion.h1>
 
       {/* Grid Layout for Phone & Text */}

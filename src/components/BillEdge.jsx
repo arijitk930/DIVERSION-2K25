@@ -18,8 +18,8 @@ const BillEdge = () => {
         animate={isInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 1 }}
       >
-        <span className="text-white">bill</span>
-        <span>Edge</span>
+        <span className="text-white text-stroke">bill</span>
+        <span className="text-stroke">Edge</span>
       </motion.h1>
 
       {/* Grid Layout for Image & Text */}

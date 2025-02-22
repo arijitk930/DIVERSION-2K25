@@ -18,8 +18,8 @@ const ExpenseEdge = () => {
         animate={isInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 1 }}
       >
-        <span className="text-white">expense</span>
-        <span>Edge</span>
+        <span className="text-white text-stroke">expense</span>
+        <span className="text-stroke">Edge</span>
       </motion.h1>
 
       {/* Wrapped Content in a Shifted Div */}
